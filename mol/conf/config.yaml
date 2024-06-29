@@ -1,0 +1,13 @@
+gpu_id: 2
+dataset: ogbg-molpcba  # {ogbg-molhiv, ogbg-molpcba}
+root: '/dataset/'
+
+model: GIN
+optimizer: 'adam'
+lrschedular: 'Cosine'
+seed: 12345
+repeat: 10
+
+degree_as_tag: false
+fast_version: false
+save: false

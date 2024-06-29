@@ -1,0 +1,49 @@
+ogbg-molhiv:
+  epochs: 100
+  early_stopping: 0
+  lamda: 0.00001
+  layer_num: 5      # L={5,10}
+  bn: true
+  eval_step: 5
+  lrscheduler: true
+  edge_dim: 16
+  lr: 0.002
+  drop: 0.45    # 0.45[L=5], 0.55[L=10]
+  residual: true
+  virtual: true
+  JK: "last"
+  readout: "mean"
+
+  bsize: 512
+  hidden_dim: 256
+  learn_eps: false
+  act_func: 'ReLU'
+
+  cs: 3   # context size, determine hops of neighbor, i.e., k
+  local_method: true
+  local_random: false
+
+ogbg-molpcba:
+  epochs: 100
+  early_stopping: 0
+  lamda: 0
+  layer_num: 5      # L={5,10}
+  bn: true
+  eval_step: 5
+  lrscheduler: true
+  edge_dim: 32
+  lr: 0.01
+  drop: 0.2
+  residual: true
+  virtual: true
+  JK: "last"
+  readout: "mean"
+
+  bsize: 512
+  hidden_dim: 256
+  learn_eps: false
+  act_func: 'LeakyReLU'
+
+  cs: 3   # context size, determine hops of neighbor, i.e., k
+  local_method: true
+  local_random: true
