@@ -1,8 +1,6 @@
-Codes for "Context Sketching for Memory-efficient Graph Representation Learning" (ICDM 2023).
-
 README for codes on ogbg-molhiv and ogbg-molpcba
 
-Depencies:
+### Depencies
     1. torch version 1.8.0+cu11.1
     2. torch_geometric version 1.6.3
     3. torch_sparse version 0.6.10
@@ -11,7 +9,7 @@ Depencies:
     6. ogb version 1.3.1
     7. Others that are missed. Readers can install them by yourselves.
 
-Run following command to generate results:
+### Run following command to generate results
 	python main_ogbg.py
 
 
