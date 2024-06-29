@@ -24,11 +24,9 @@ README for codes on ogbg-molhiv and ogbg-molpcba
 ## Citation
 <pre>
 @inproceedings{DBLP:conf/icdm/YaoL23,
-  author       = {Kai{-}Lang Yao and
-                  Wu{-}Jun Li},
+  author       = {Kai{-}Lang Yao and Wu{-}Jun Li},
   title        = {Context Sketching for Memory-efficient Graph Representation Learning},
   booktitle    = {{IEEE} International Conference on Data Mining},
-  year         = {2023},
-
+  year         = {2023}
 }
 </pre>
